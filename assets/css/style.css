@@ -18,7 +18,7 @@ p {
     border: #cccccc solid 3px;
     border-top: none;
     height: 46px;
-    margin: 0 -500;
+    margin: 0 -500 20 -500;
 }
 
 .topnav a {
@@ -30,6 +30,11 @@ p {
     font-size: 17px;
     position: relative;
     right: 500;
+}
+
+.topnav a:hover {
+    background-color: #777777;
+    color: #ffffff;
 }
 
 .topnav h1 {
@@ -67,13 +72,21 @@ p {
 }
 
 .main_port h1 {
+    width: 90%;
+    margin: auto;
     color: #4aaaa5;
-    padding: 20px;
+    padding: 20 20 20 0;
+    border: none;
+    border-bottom: #666666 solid 2px;
 }
 
 .main h1 {
+    width: 90%;
+    margin: auto;
     color: #4aaaa5;
-    padding: 20px;
+    padding: 20 20 20 0;
+    border: none;
+    border-bottom: #666666 solid 2px;
 }
 
 .main img {
